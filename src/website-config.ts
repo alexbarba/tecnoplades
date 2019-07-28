@@ -51,8 +51,8 @@ export interface WebsiteConfig {
 const config: WebsiteConfig = {
   title: 'Tecnoplades',
   description: 'Tecnología y Planeación para el Desarrollo Sustentable S.A. de C.V.',
-  coverImage: 'img/blog-cover.jpg',
-  logo: 'img/tecnoplades-logo.png',
+  coverImage: 'img/ecosistema.jpeg',
+  logo: 'img/logo.png',
   lang: 'es',
   siteUrl: 'https://tecnoplades.com',
   facebook: 'https://www.facebook.com/tecnoplades',

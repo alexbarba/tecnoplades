@@ -4,12 +4,13 @@ import { css } from '@emotion/core';
 
 import config from '../../website-config';
 
+import { colors } from '../../styles/colors';
 const SiteNavLogoStyles = css`
   flex-shrink: 0;
   display: block;
   margin-right: 24px;
   padding: 11px 0;
-  color: #fff;
+  color: ${colors.contentheader};
   font-size: 1.7rem;
   line-height: 1em;
   font-weight: bold;

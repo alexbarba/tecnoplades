@@ -32,10 +32,11 @@ export const SiteDescription = styled.h2`
   z-index: 10;
   margin: 0;
   padding: 5px 0;
-  font-size: 2.2rem;
-  font-weight: 300;
+  font-size: 3.2rem;
+  font-weight: 800;
   letter-spacing: 0.5px;
   opacity: 0.8;
+  color: white;
 `;
 
 export const PostFeed = css`
@@ -59,7 +60,7 @@ export const SocialLink = css`
   align-items: center;
   margin: 0;
   padding: 10px;
-  color: #fff;
+  color: ${colors.contentheader};
   opacity: 0.8;
 
   :hover {
@@ -68,7 +69,7 @@ export const SocialLink = css`
 
   svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: ${colors.contentheader};
   }
 `;
 
@@ -76,10 +77,11 @@ export const SiteHeader = css`
   position: relative;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #fff;
+  color: ${'colors.contentheader'};
   /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
-  background: ${darken('0.05', colors.darkgrey)} no-repeat center center;
+  background: ${colors.white} no-repeat center center;
   background-size: cover;
+  font-weight: 900;
 `;
 
 export const SiteHeaderContent = styled.div`
@@ -91,6 +93,7 @@ export const SiteHeaderContent = styled.div`
   min-height: 200px;
   max-height: 450px;
   text-align: center;
+  color: ${colors.darkgrey};
 `;
 
 export const SiteHeaderStyles = css`

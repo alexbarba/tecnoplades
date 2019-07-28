@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import { setLightness } from 'polished';
+import { darken } from 'polished';
 import * as React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
@@ -12,8 +12,8 @@ const SiteFooter = css`
   position: relative;
   padding-top: 20px;
   padding-bottom: 60px;
-  color: #fff;
-  background: ${setLightness('0.0015', colors.darkgrey)};
+  color: #333333;
+  background: ${darken('0.0015', colors.whitegrey)};
 `;
 
 const SiteFooterContent = css`
@@ -21,13 +21,13 @@ const SiteFooterContent = css`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 1.3rem;
   a {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
   }
   a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
     text-decoration: none;
   }
   @media (max-width: 650px) {
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
           )}
         </section>
         <SiteFooterNav>
-          <Link to="/">Latest Posts</Link>
+          <Link to="/">Últimos Posts</Link>
           {config.facebook && (
             <a href={config.facebook} target="_blank" rel="noopener noreferrer">
               Facebook
@@ -89,12 +89,6 @@ const Footer: React.FC = () => {
               Twitter
             </a>
           )}
-
-          <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
-            Ghost
-          </a>
-
-          <a href="/rss.xml">RSS</a>
         </SiteFooterNav>
       </div>
     </footer>

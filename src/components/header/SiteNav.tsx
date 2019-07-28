@@ -11,6 +11,8 @@ import Twitter from '../icons/twitter';
 import SubscribeModal from '../subscribe/SubscribeOverlay';
 import SiteNavLogo from './SiteNavLogo';
 
+import { colors } from '../../styles/colors';
+
 const HomeNavRaise = css`
   @media (min-width: 900px) {
     position: relative;
@@ -27,6 +29,8 @@ const SiteNavStyles = css`
   overflow-y: hidden;
   height: 40px;
   font-size: 1.2rem;
+  background: white;
+  border-radius: 10px;
 `;
 
 const SiteNavLeft = styled.div`
@@ -36,6 +40,7 @@ const SiteNavLeft = styled.div`
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   margin-right: 10px;
+  margin-left: 10px;
   padding-bottom: 80px;
   letter-spacing: 0.4px;
   white-space: nowrap;
@@ -65,7 +70,7 @@ const NavStyles = css`
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
+    color: ${colors.contentheader};
     opacity: 0.8;
   }
 
@@ -80,7 +85,7 @@ const SiteNavRight = styled.div`
   display: flex;
   align-items: center;
   height: 40px;
-
+  margin-right: 10px;
   @media (max-width: 700px) {
     display: none;
   }
@@ -98,8 +103,8 @@ const SocialLinks = styled.div`
 const SubscribeButton = styled.a`
   display: block;
   padding: 4px 10px;
-  border: #fff 1px solid;
-  color: #fff;
+  border: ${colors.contentheader} 1px solid;
+  color: ${colors.contentheader};
   font-size: 1.2rem;
   line-height: 1em;
   border-radius: 10px;
@@ -170,7 +175,7 @@ class SiteNav extends React.Component<SiteNavProps> {
             )}
           </SocialLinks>
           {config.showSubscribe && (
-            <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
+            <SubscribeButton onClick={this.openModal}>Suscribir</SubscribeButton>
           )}
           {config.showSubscribe && <SubscribeModal ref={this.subscribe} />}
         </SiteNavRight>
