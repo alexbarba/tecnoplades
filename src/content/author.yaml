@@ -1,15 +1,16 @@
-- id: Ghost
+- id: Pablo López
   avatar: avatars/ghost.png
-  bio: The professional publishing platform
+  bio: Oceanólogo
+  twitter: TryGhost
+  facebook: Pablo López
+  website: https://tecnoplades.com/
+  location: Guadalajara, Jalisco, México.
+
+- id: Teresa López
+  avatar: avatars/teresa-lopez.jpg
+  bio: Nací en Qro. Desde los 10 años me gusta la lectura. Estudié Comercio Internacional y estudio actualmente Maestría en Apreciación y Creación Literaria.
   twitter: TryGhost
   facebook: ghost
-  website: https://ghost.org/
-  location: On a plane
-- id: Another Author
-  avatar: avatars/ghost.png
-  bio: This is another test author with a profile background image
-  twitter: TryGhost
-  facebook: ghost
-  website: https://ghost.org/
-  location: On a plane
+  website: https://tecnoplades.com/
+  location: Guadalajara, Jalisco, México
   profile_image: img/alex-knight-326705-unsplash.jpg

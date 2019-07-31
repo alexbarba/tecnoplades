@@ -44,6 +44,12 @@ const AuthorMeta = styled.div`
   font-style: italic;
 `;
 
+const texto = css`
+  margin-top: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+`;
+
 const AuthorBio = styled.h2`
   z-index: 10;
   flex-shrink: 0;
@@ -51,7 +57,7 @@ const AuthorBio = styled.h2`
   max-width: 600px;
   font-size: 2rem;
   line-height: 1.3em;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.5px;
   opacity: 0.8;
 `;
@@ -115,13 +121,10 @@ interface AuthorTemplateProps {
 const Author: React.FC<AuthorTemplateProps> = props => {
   const author = props.data.authorYaml;
 
-  const edges = props.data.allMarkdownRemark.edges.filter(
-    edge => {
-      const isDraft = (edge.node.frontmatter.draft !== true ||
-        process.env.NODE_ENV === 'development');
-      return isDraft && edge.node.frontmatter.author && edge.node.frontmatter.author.id === author.id;
-    }
-  );
+  const edges = props.data.allMarkdownRemark.edges.filter(edge => {
+    const isDraft = edge.node.frontmatter.draft !== true || process.env.NODE_ENV === 'development';
+    return isDraft && edge.node.frontmatter.author && edge.node.frontmatter.author.id === author.id;
+  });
   const totalCount = edges.length;
 
   return (
@@ -160,14 +163,14 @@ const Author: React.FC<AuthorTemplateProps> = props => {
           css={[outer, SiteHeader]}
           style={{
             // eslint-disable-next-line @typescript-eslint/camelcase
-            backgroundImage: author.profile_image ?
-              `url(${author.profile_image.childImageSharp.fluid.src})` :
-              '',
+            backgroundImage: author.profile_image
+              ? `url(${author.profile_image.childImageSharp.fluid.src})`
+              : '',
           }}
         >
           <div css={inner}>
             <SiteNav isHome={false} />
-            <SiteHeaderContent>
+            <SiteHeaderContent css={texto}>
               <img
                 css={[AuthorProfileImage, AuthorProfileBioImage]}
                 src={props.data.authorYaml.avatar.childImageSharp.fluid.src}
@@ -286,9 +289,9 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { draft: { ne: true } } },
-      sort: { fields: [frontmatter___date], order: DESC },
-      limit: 2000,
+      filter: { frontmatter: { draft: { ne: true } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 2000
     ) {
       edges {
         node {

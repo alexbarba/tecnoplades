@@ -51,7 +51,7 @@ const AuthorCard: React.FC<AuthorCardProps> = ({ author }) => {
           <p>{author.bio}</p>
         ) : (
           <p>
-            Read <Link to={`/author/${_.kebabCase(author.id)}/`}>more posts</Link> by this author.
+            Lee <Link to={`/author/${_.kebabCase(author.id)}/`}>más posts</Link> de éste autor.
           </p>
         )}
       </AuthorCardContent>
