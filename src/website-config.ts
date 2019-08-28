@@ -46,6 +46,7 @@ export interface WebsiteConfig {
    * Appears alongside the footer, after the credits
    */
   footer?: string;
+  /*Added by me*/
 }
 
 const config: WebsiteConfig = {
