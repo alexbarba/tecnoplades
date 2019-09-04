@@ -12,7 +12,7 @@ import Helmet from 'react-helmet';
 
 /*const informacion = (<any>data).data;*/
 const data = require('../data.json').data[0];
-console.log(data);
+
 const PageTemplate = css`
   .site-main {
     background: #fff;
@@ -206,6 +206,271 @@ const About: React.FC = () => (
                   la alianza estratégica y convenios de cooperación con Tecnoplades.
                 </p>
               </ol>
+              <h2>EXPERIENCIA</h2>
+              <h3>2001</h3>
+              <p>
+                Elaboración del estudio técnico del Proyecto de Norma Oficial Mexicana para el
+                manejo de embalses hasta 1000 hectáreas, en el estado de Jalisco, a través del
+                Instituto de Acuacultura y Pesca del Estado de Jalisco (IAPEJ).
+              </p>
+              <h3>2003</h3>
+              <p>
+                Elaboración del Proyecto de “Cultivo de Tilapia en Jaulas” para la presa “El
+                Comedero” en el estado de Sinaloa. Aprobado por la Comisión Nacional de Pesca.
+              </p>
+              <p>
+                Elaboración del Proyecto de “Cultivo de Tilapia en Jaulas” para la presa “El
+                Varejonal” en el estado
+              </p>
+              <h3>2004</h3>
+              <p>
+                Elaboración del Proyecto “Fortalecimiento en la comercialización de crías de bagre”
+                para la empresa “Acuacultivos Santo Tomás” en el estado de Tamaulipas. Aprobado por
+                la Comisión Nacional de Pesca
+              </p>
+              <p>
+                Trabajos del 2003 al 2004 en el estado de Hidalgo:
+                <ul>
+                  <li>
+                    Realización del Plan de Manejo de la presa “El Comalillo” en el estado de
+                    Hidalgo.
+                  </li>
+                  <li>
+                    Elaboración del Plan de Manejo para la “Laguna Zupitlán” en el estado de
+                    Hidalgo.
+                  </li>
+                  <li>Reglamento Interno para el Comité Acuícola Hidalguense de Sanidad.</li>
+                  <li>Marco de Referencia para el Comité Acuícola Hidalguense de Sanidad.</li>
+                </ul>
+                Organización de cursos de capacitación en materia de sanidad acuícola. (Curso-
+                Taller de sanidad para productores de bagre en Jalisco y Michoacán)
+              </p>
+              <p>
+                Elaboración del proyecto productivo Cultivo de tilapia en jaulas flotantes para la
+                presa “El Salto Chico” en el estado de Sinaloa
+              </p>
+              <p>
+                Proyecto productivo “Planta procesadora de filete de bagre”, ubicada en el municipio
+                de Abasolo, Tamaulipas.
+              </p>
+              <h3>2005</h3>
+              <p>
+                Diseño y Construcción de jaulas flotantes de alto rendimiento para la puesta en
+                marcha del proyecto “Cultivo de Tilapia en Jaulas” para la presa “El Comedero” en el
+                estado de Sinaloa
+              </p>
+              <p>
+                Plan de Manejo para el embalse “Trigomil” en el municipio de Unión de Tula, Jalisco
+              </p>
+              <p>
+                Proyecto unidad de capacitación y de producción agro-acuacultural, para Villa de los
+                Niños en Acatlán de Juárez, Jalisco
+              </p>
+              <h3>2006</h3>
+              <p>
+                Elaboración de proyecto: Cultivo de tilapia en jaulas flotantes en la presa “Cajón
+                de Peña”, Tomatlán, Jalisco.
+              </p>
+              <p>
+                Producción de cría larval y cultivo de Juveniles Sphoeroides annulatus (Botete
+                dianna) en jaulas flotantes, en el estado de Jalisco. Aprobado para la elaboración
+                de proyecto por la CONAPESCA para el 2004. El promoverte fue la cooperativa “Del
+                Rosita” de Puerto Vallarta, Jalisco
+              </p>
+              <p>
+                Elaboración del proyecto de cultivo de camarón blanco, ubicado en Tomatlán, Jalisco
+              </p>
+              <p>
+                Realización de un paquete de cursos de capacitación para el sector productivo y
+                dependencias de gobierno del estado de Jalisco (Secretaría de Desarrollo Rural y,
+                Subdelegación de Pesca) en temas de: Cultivo de camarón blanco en agua dulce,
+                cultivo de ostión, manejo integral de embalses, y el uso de la recirculación en la
+                acuacultura
+              </p>
+              <h3>2007</h3>
+              <p>
+                Elaboración de un Plan de Manejo para la presa “Cajón de Peña”, ubicada en el
+                municipio de Tomatlán, Jalisco.
+              </p>
+              <p>
+                Estudios de factibilidad técnico- económica para el cultivo de camarón en Arabia
+                Saudita, y Egipto., Así como la propuesta de un paquete tecnológico para el
+                desarrollo de un laboratorio de post-larvas de camarón y construcción y equipamiento
+                de granja de camarón
+              </p>
+              <p>
+                Elaboración de proyecto productivo: Cultivo de tilapia en estanques de geomembrana
+                en el municipio de la Barca, Jalisco.
+              </p>
+              <p>
+                Diseño de un centro de acopio y comercialización de productos acuícolas en el estado
+                de Jalisco.
+              </p>
+              <p>
+                Proyecto de Recirculación, Sistematización y Automatización en la producción de
+                crías de tilapia en el Centro Acuícola de Clavellinas, ubicado en el Mpio. De
+                Tuxpan, Jalisco.
+              </p>
+              <h3>2008</h3>
+              <p>Diseño de una Unidad de Manejo Acuícola de pez blanco en el Lago de Chapala</p>
+              <p>
+                Proyecto para la producción de crías y engorda de tilapia en la Laguna de San Juan,
+                en Tomatlán, Jalisco.
+              </p>
+              <p>
+                Proyecto para el mejoramiento del hábitat marino y compensación social de daños
+                ambientales para la región costera del estado de Tabasco (PEMEX-Fundación Tabasco
+                A.C.)
+              </p>
+              <h3>2009</h3>
+              <p>
+                Proyecto para la colocación de una zona de arrecifes artificiales en la Bahía de
+                Chipehua, Oaxaca y Diseño del proyecto técnico, económico y financiero para la
+                construcción del Centro Reproductor de Especies Marinas del Estado de Oaxaca
+                (CREMEO), a través del Instituto de Acuacultura y Pesca del Estado de Jalisco.
+                Convenio de Cooperación entre Gobierno del Estado de Oaxaca y el Gobierno del Estado
+                de Jalisco.
+              </p>
+              <p>
+                Elaboración del Plan para el Desarrollo de la Maricultura en el Estado de Sonora en
+                coordinación con la Subsecretaría de Pesca del Estado de Sonora, atendiendo el
+                desarrollo tecnológico y las políticas públicas
+              </p>
+              <p>
+                Desarrollo de la misión de cooperación Tecnológica e Institucional, a Brasil, para
+                establecer convenios de colaboración en materia de aprovechamiento y control del
+                plecostomus. Integrando, al ministerio de Acuacultura y Pesca de Brasil, al Gobierno
+                de Chiapas y la Delegación de la SAGARPA de Chiapas.
+              </p>
+              <p>
+                Consultoría, revisión y corrección de estilo del Plan Estatal de Desarrollo Jalisco
+                2030 Documento de 500 páginas.
+              </p>
+              <p>
+                Elaboración del Proyecto de Desarrollo de la Tecnología para la Producción de Peces
+                Eurihalinos (pargo y robalo) en el Centro Estatal de Acuacultura Chiapas. Trabajo
+                realizado para la Secretaria de Pesca y Acuacultura del estado a través de la
+                Fundación Produce Chiapas A.C. Se logró el desarrollo de los protocolos operativos
+                (microalgas, rotíferos y manejo de reproductores) en una primera etapa.
+                Adicionalmente se establecieron los criterios para la toma de decisiones para la
+                implementación de un centro de línea de producción de crías de pargo y robalo
+                necesario para detonar el cultivo comercial de estas especies en los sistemas
+                acuáticos del litoral chiapaneco.
+              </p>
+              <h3>2011</h3>
+              <p>
+                Elaboración del Plan Estratégico y de Negocios Unidad de Transferencia Tecnológica
+                CICESE- NAYARIT. Trabajo realizado para en Centro de Investigación Científica y de
+                Educación Superior de Ensenada, Baja California. (CICESE). Para la realización de
+                este Plan, se conto con la colaboración de la Universidad de Guadalajara, la empresa
+                EVOLUTEL y la agencia consultora AIDTEC.
+              </p>
+              <h3>2012</h3>
+              <p>
+                Elaboración del Estudio de Manifestación de Impacto Ambiental, modalidad Regional
+                para la costa de Colima. (Obtención del resolutivo favorable N. Oficio: SGPARN.-
+                1122/12 para la aprobación de un área de 117,851.38 hectáreas para el desarrollo de
+                la maricultura en el litoral colimense). Promovente Gobierno del estado de Colima.
+              </p>
+              <p>
+                Participación en la propuesta para la creación de la Agencia Mexicana de Mares y
+                Costas (ponente en la consulta realizada en el Senado de la República).
+              </p>
+              <p>
+                Elaboración del proyecto: Mejoramiento de ambientes marinos en el Paraíso (arrecifes
+                artificiales). Municipio de Armería, Colima. Proyecto realizado para la Sociedad
+                Cooperativa de Producción Pesquera El Paraíso de Armería, Colima, S.C. de R.L., y
+                gestionado ante la Comisión Nacional de Acuacultura y Pesca (CONAPESCA) aprobado
+                para su financiamiento (actualmente se encuentra en operación).
+              </p>
+              <p>
+                Realización del proyecto diagnóstico socio-ambiental para la identificación de
+                actividades alternativas sustentables de los vasos III y IV de la laguna de
+                Cuyutlán, Colima (Sección sobre pesquerías y sistemas acuícolas) en colaboración de
+                la Universidad de Colima y la Comisión Federal de Electricidad.
+              </p>
+              <h3>2013</h3>
+              <p>
+                Participación en la propuesta para la modificación a la Ley General de Pesca y
+                Acuacultura Sustentables para incluir la maricultura como una actividad que deberá
+                ser fomentada para fortalecer la soberanía alimentaria, generación de empleos y
+                arraigo de la población ( Reuniones de trabajo con la senadora Diva Hadamira
+                Gastélum Bajo y su equipo de trabajo).
+              </p>
+              <p>
+                Trabajo técnico para la propuesta a la modificación de criterios del Programa
+                Regional de Ordenamiento Ecológico Territorial de la Subcuenca laguna de Cuyutlán.
+                Instrumento de Política Pública que permite la introducción de proyectos productivos
+                con beneficio al sector productivo (pescadores, salineros). Trabajo realizado para
+                el Instituto para el Medio Ambiente y Desarrollo Sustentable de Colima
+              </p>
+              <p>
+                Propuesta técnica para la gestión de recursos financieros a favor del Plan para el
+                Desarrollo de la Maricultura en el Estado de Colima ante la Agencia Francesa de
+                Desarrollo en la ciudad de México. El resultado de la propuesta concluyó en que la
+                Agencia, apoya la viabilidad del proyecto y se establece que el titular realice una
+                visita para continuar la gestión a través del Gobierno del Estado de Colima.
+              </p>
+              <p>
+                Propuesta técnica para la gestión de recursos financieros a favor del Plan para el
+                Desarrollo de la Maricultura en el Estado de Colima ante la Secretaría de Hacienda y
+                Crédito Público (SHCP). Esta propuesta fue formulada en coordinación con la
+                Universidad de Colima y la participación de la Comisión Federal de Electricidad. Se
+                establecieron los mecanismos para la implementación de un proyecto piloto que genere
+                los indicadores económicos, técnicos y financieros para la formulación del proyecto
+                ejecutivo dentro de los formatos que requisita la SHCP.
+              </p>
+              <p>
+                Elaboración del Plan para el Desarrollo de la Maricultura en el estado de Colima
+                (PLADEMEC). Trabajo realizado para el Gobierno de Colima a través de la Fundación
+                Produce Colima A.C. Cabe señalar que es la única entidad federativa que cuenta con
+                los elementos (Manifestación de Impacto Ambiental y Plan de Desarrollo) para
+                realizar maricultura en su litoral. Este Plan se cataloga como un instrumento de
+                Política Pública para el estado, el cual se encuentra actualmente en proceso de
+                implementación.
+              </p>
+              <h3>2014</h3>
+              <p>
+                Presentación del concepto de Plan para el Desarrollo de la Maricultura ante la
+                comisión de pesca de la cámara de diputados.
+              </p>
+              <p>
+                Formulación del modelo para el Desarrollo de un Plan de Negocios para la
+                transferencia tecnológica de un sistema hiperintensivo para la producción de camarón
+                blanco (indicadores económicos 170 Ton/Ha a cero recambio y balance iónico).
+              </p>
+              <p>
+                Diseño conceptual y puesta en marcha del evento Primera Expo Tequila, Mar y Vino,
+                para fomentar el consumo de Pescados y Mariscos en la Región Occidente con el
+                patrocinio de CONAPESCA, SEDER y Municipio de Zapopan.
+              </p>
+              <h3>2015</h3>
+              <p>
+                Realización del proyecto: “Estudio de Ordenamiento Acuícola, Territorial y de
+                Factibilidad Técnica, Económica, Social e Impacto Ambiental para el desarrollo de la
+                acuacultura en jaulas flotantes en las presas Miguel Alemán y Miguel de la Madrid en
+                Oaxaca.
+              </p>
+              <p>
+                Elaboración y puesta en marcha del estudio “Fomento al Consumo de pescados y
+                mariscos, en niños en edad escolar, inscritas al programa PROSPERA en Zapopan,
+                Jalisco.
+              </p>
+              <h3>2016</h3>
+              <p>
+                Estudio de investigación en conjunto con la Secretaria de Salud Jalisco, realización
+                del protocolo “Cambios en niveles de colesterol, triglicéridos y el rango AA/EPA en
+                escolares del programa PROSPERA en la Colonia Constitución en Zapopan Jalisco.
+              </p>
+              <h3>2017</h3>
+              <p>
+                Resolución favorable por medio de la Secretaria del Medio Ambiente y Recursos
+                Naturales referente el “Estudio de Ordenamiento Acuícola, Territorial y de
+                Factibilidad Técnica, Económica, Social e Impacto Ambiental para el desarrollo de la
+                acuacultura en jaulas flotantes en las presas Miguel Alemán y Miguel de la Madrid en
+                Oaxaca”. Donde se autoriza el uso de los parques acuícolas para el cultivo de
+                tilapia con una capacidad de carga de hasta 82,000 Ton.
+              </p>
             </div>
           </PostFullContent>
         </article>
