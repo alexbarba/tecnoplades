@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inflamación celular y dislipidemia en escolares del programa PROSPERA en Zapopan, urgencia epidemiológica en prevención de enfermedades crónicas
-image: img/callum-shaw-555357-unsplash.jpg
+image: img/salud-jalisco.png
 author: Teresa López
 date: 2019-03-09T10:00:00.000Z
 tags:
