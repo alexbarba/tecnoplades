@@ -51,7 +51,7 @@ FIGURA 1.
 Explicación gráfica de la Infl amación Celular
 </p>
 
-![Figura 1. Explicación gráfica de la Inflamación Celular](https://raw.githubusercontent.com/alexbarba/tecnoplades/master/src/content/img/demo1.jpg)
+![Figura 1. Explicación gráfica de la Inflamación Celular](https://raw.githubusercontent.com/alexbarba/tecnoplades/master/src/content/img/explicacion-grafica-inflamacion-celular.PNG)
 
 ## Material y Métodos
 En el año 2015 en el mes de septiembre en el centro de salud Constitución se convocó a las madres de  familia benefi ciarias del programa PROSPERA que tuvieran hijos en edad escolar para socializar el estudio de investigación: “Cambios en niveles de colesterol, triglicéridos y el rango AA/EPA en escolares del programa PROSPERA en la colonia Constitución de Zapopan, Jalisco a través del fomento al consumo de pescados y mariscos”, siendo este un estudio prospectivo longitudinal de intervención con grupo de comparación para  el cual se realizó el diseño de la base de datos, su captura y análisis en el programa Epi Info 7 (versión 7.1.5.2) complementando con la plataforma OpenEpi.com (versión 3.03a).
