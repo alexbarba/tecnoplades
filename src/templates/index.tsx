@@ -10,6 +10,7 @@ import Wrapper from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import config from '../website-config';
 import Pagination from '../components/Pagination';
+import Iframe from 'react-iframe'
 
 import {
   inner,
@@ -23,6 +24,7 @@ import {
   SiteTitle,
 } from '../styles/shared';
 import { PageContext } from './post';
+import Author from './author';
 
 const HomePosts = css`
   @media (min-width: 795px) {
@@ -65,7 +67,39 @@ const HomePosts = css`
     }
   }
 `;
+const iframeStyle = css`
+  width: auto;
+  height: 585px;
+  background-size: cover;
+  @media (max-width: 795px) {
+    height: 425px;
+  }
+  @media (max-width: 500px) {
+    height: 300px;
+  }
+`;
+const iframeHeight = {
+  height: 'calc(width * 1.86)'
+}
+const iframeContainer = css`
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 20px 40px;
+  min-height: 300px;
+  background: #fff center center;
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+  transition: all 0.5s ease;
 
+  :hover {
+    box-shadow: rgba(39, 44, 49, 0.07) 8px 28px 50px, rgba(39, 44, 49, 0.04) 1px 6px 12px;
+    transition: all 0.4s ease;
+    transform: translate3D(0, -1px, 0) scale(1.02);
+  }
+`
 export interface IndexProps {
   pageContext: {
     currentPage: number;
@@ -155,9 +189,16 @@ const IndexPage: React.FC<IndexProps> = props => {
             <SiteNav isHome />
           </div>
         </header>
+
+        
         <main id="site-main" css={[SiteMain, outer]}>
           <div css={inner}>
+          
             <div css={[PostFeed, PostFeedRaise]}>
+              <div css={iframeContainer}>
+                <Iframe css={iframeStyle}  src="https://www.youtube-nocookie.com/embed/POfIEWrzYRg?start=4815" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Iframe>
+              </div>
+            
               {props.data.allMarkdownRemark.edges.map(post => {
                 // filter out drafts in production
                 return (
@@ -170,6 +211,7 @@ const IndexPage: React.FC<IndexProps> = props => {
             </div>
           </div>
         </main>
+        
         {props.children}
         <Pagination
           currentPage={props.pageContext.currentPage}
