@@ -5,6 +5,7 @@ image: img/salud-jalisco.png
 author: Teresa López
 date: 2019-03-09T10:00:00.000Z
 tags:
+  - Artículo de investigación
   - Inflamación celular
   - SaludJalisco
 ---
@@ -12,9 +13,6 @@ tags:
 <h2 align="center">
 Artículo Original
 </h2>
-
-# Inflamación celular y dislipidemia en escolares del programa PROSPERA en Zapopan, urgencia epidemiológica en prevención de enfermedades crónicas
-
 **López-Martínez L. M. (1), Loreto-Garibay O. (2), González-Romero E. (3), López-Domínguez P. (4), Rodríguez-Palafox S.G. (5),**
 
 (1) Médico Adscrito al Centro de Salud Constitución SSJ, Maestra en Gerontología Social. (2) Doctor en Ciencias de la Salud Pública, Profesor en el CUCS-U de G. (3) Maestro en Gerontología Social, Prof. Inv. Titular “A” CUCS-U de G. (4) Biólogo y Oceanólogo director de TECNOPLADES S. A. de C. V. (5) Licenciada en Enfermería Adscrita al Centro de Salud Mercado Bola.
